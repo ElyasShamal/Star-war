@@ -1,4 +1,6 @@
-let charecterBtn = document.getElementById("get-charecters");
+let charecterBtn = document.getElementById("get-Characters");
 charecterBtn.addEventListener("click", () => {
-  fetch("api_url");
+  fetch("https://www.swapi.tech/api/people/1")
+    .then((res) => res.json())
+    .then((data) => console.log(data));
 });
