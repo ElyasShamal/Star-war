@@ -42,7 +42,7 @@ ul {
 .spinner-border {
   position: absolute;
   text-align: center;
-  top: 100px;
+  top: 180px;
   left: 48%;
   font-size: 20px;
 }
@@ -67,4 +67,10 @@ button {
 }
 .planets button {
   left: 50px;
+}
+
+h1 {
+  position: relative;
+  top: 130px;
+  left: 46%;
 }
