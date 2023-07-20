@@ -10,20 +10,23 @@
     <title>Star_war_api</title>
   </head>
   <body>
+    <div class="spinner-border" role="status" id="loading">
+      <span class="sr-only">Loading...</span>
+    </div>
     <main id="container">
       <div class="characters">
-        <h1>characters</h1>
-        <div class="characters-data">
+        <h2>characters</h2>
+        <div id="characters-data">
           <!-- data from api -->
-          <button id="get-Characters">characters</button>
         </div>
+        <button onclick="nextCharecter()">characters</button>
       </div>
 
-      <div class="movies">
-        <h1>Films</h1>
-        <div class="films-data">
+      <div class="planets">
+        <h2>planets</h2>
+        <div class="planets_data">
           <!-- data from film api -->
-          <button class="get-movies">Movies</button>
+          <button onclick="nextPlanet()">Planets</button>
         </div>
       </div>
     </main>
